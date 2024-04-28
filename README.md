@@ -4,6 +4,8 @@
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=jihun3654)](https://solved.ac/jihun3654)
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MasJeong&layout=compact&theme=tokyonight)
+
 <!--
 **MasJeong/MasJeong** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

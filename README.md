@@ -14,7 +14,7 @@ OpenAI Codex CLI를 위한 워크플로우 레이어인 oh-my-codex에 기여하
 - [Yeachan-Heo/oh-my-codex #2738](https://github.com/Yeachan-Heo/oh-my-codex/pull/2738) - team worker 실행 중 tmux HUD 소유권 환경변수가 잘못 전달되어 HUD pane이 중복 생성되던 문제를 수정했습니다.
 - [Yeachan-Heo/oh-my-codex #2739](https://github.com/Yeachan-Heo/oh-my-codex/pull/2739) - worker startup script 경로에서도 HUD 소유권 환경변수가 상속되지 않도록 후속 처리를 추가했습니다.
 
-두 PR은 리뷰를 거쳐 원 저장소의 `dev` 브랜치에 머지되었고, 필요한 CI checks가 통과했습니다.
+두 PR은 리뷰를 거쳐 upstream `dev` 브랜치에 머지되었습니다.
 
 ## 관심 영역
 

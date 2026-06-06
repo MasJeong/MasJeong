@@ -21,7 +21,3 @@
 - 멀티 에이전트 개발 도구
 - 안정적인 tmux/session 오케스트레이션
 - 실패 원인을 숨기지 않는 자동화와 실용적인 관측 가능성
-
-## GitHub
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=MasJeong&show_icons=true&theme=tokyonight)

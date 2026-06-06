@@ -3,7 +3,7 @@
 Spring Boot/Java 기반 백엔드를 개발하며, 구현 과정에서 개선할 수 있는 지점을 그냥 지나치지 않는 개발자입니다.
 
 반복되는 확인 작업이나 헷갈리기 쉬운 개발 흐름을 발견하면, 문서·도구·자동화로 정리해보는 편입니다.  
-최근에는 Claude Code, MCP, 기능 계약서, pre-commit hook 등을 연결해 AI Agent가 요구사항을 확인하고 구현 결과를 검증할 수 있는 백엔드 설계·검증 하네스를 구축하고 있습니다.
+최근에는 Mock 화면·회의록·DB 표준·API 계약을 Claude Code Rules/Skills/Hooks/Subagents, 자체 MCP 서버, 기능 계약서, pre-commit hook과 연결해 AI Agent 기반 백엔드 설계·검증 하네스를 구축한 경험이 있습니다.
 
 ## 오픈소스 기여
 

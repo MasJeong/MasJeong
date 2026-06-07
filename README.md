@@ -11,7 +11,7 @@ OpenAI Codex CLI를 위한 워크플로우 레이어인 oh-my-codex에 기여하
 
 최근 머지된 기여:
 
-- [Yeachan-Heo/oh-my-codex #2738](https://github.com/Yeachan-Heo/oh-my-codex/pull/2738) - team worker 실행 시 HUD 소유권 정보가 worker/prompt 실행 경로로 누수되어 HUD pane이 중복 생성되던 문제를 수정하고, 중복 HUD pane 복구 로직·로컬 소스 기준 실행 경로·회귀 테스트를 보강했습니다.
+- [Yeachan-Heo/oh-my-codex #2738](https://github.com/Yeachan-Heo/oh-my-codex/pull/2738) - team worker 실행 시 HUD ownership context가 worker/prompt 실행 경로로 누수되어 HUD pane이 중복 생성되던 문제를 수정하고, 중복 HUD pane 복구 로직·로컬 소스 기준 실행 경로·회귀 테스트를 보강했습니다.
 - [Yeachan-Heo/oh-my-codex #2739](https://github.com/Yeachan-Heo/oh-my-codex/pull/2739) - worker startup script 경로에서도 HUD 소유권 환경변수를 명시적으로 제거하도록 후속 보완하고 회귀 테스트를 추가했습니다.
 
 

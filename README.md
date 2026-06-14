@@ -11,7 +11,7 @@ OpenAI Codex CLI를 위한 워크플로우 레이어인 oh-my-codex에 기여하
 
 릴리즈 반영:
 
-- [oh-my-codex v0.18.10](https://github.com/Yeachan-Heo/oh-my-codex/releases/tag/v0.18.10) - 관련 PR들이 릴리즈에 포함되었고, Contributors 항목에 [@MasJeong](https://github.com/MasJeong)으로 등재되었습니다.
+- [oh-my-codex v0.18.10](https://github.com/Yeachan-Heo/oh-my-codex/releases/tag/v0.18.10) - 해당 기여가 릴리즈에 반영되었고, 릴리즈 노트에서 contributor로 확인할 수 있습니다.
 
 최근 머지된 기여:
 

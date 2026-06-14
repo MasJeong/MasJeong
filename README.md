@@ -9,6 +9,10 @@ Spring Boot/Java 기반 백엔드를 개발하며 구현 및 검토 과정에서
 
 OpenAI Codex CLI를 위한 워크플로우 레이어인 oh-my-codex에 기여하며, tmux 기반 멀티 에이전트 런타임에서 HUD pane이 중복 생성되던 문제를 재현하고 수정했습니다.
 
+릴리즈 반영:
+
+- [oh-my-codex v0.18.10](https://github.com/Yeachan-Heo/oh-my-codex/releases/tag/v0.18.10) - 관련 PR들이 릴리즈에 포함되었고, Contributors 항목에 [@MasJeong](https://github.com/MasJeong)으로 등재되었습니다.
+
 최근 머지된 기여:
 
 - [Yeachan-Heo/oh-my-codex #2738](https://github.com/Yeachan-Heo/oh-my-codex/pull/2738) - team worker 실행 시 HUD ownership context가 worker/prompt 실행 경로로 누수되어 HUD pane이 중복 생성되던 문제를 수정하고, 중복 HUD pane 복구 로직·로컬 소스 기준 실행 경로·회귀 테스트를 보강했습니다.

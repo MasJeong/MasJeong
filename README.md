@@ -1,10 +1,3 @@
-# MasJeong
-
-Spring Boot/Java 기반 백엔드를 개발하며 구현 및 검토 과정에서 개선할 수 있는 지점을 그냥 지나치지 않는 개발자입니다.
-
-반복 작업 중 자동화했을 때 일관된 결과를 낼 수 있는 것들을 문서·도구·자동화로 정리하는 편입니다.
-최근에는 목업 화면·회의록·DB 표준·API 계약을 기반으로, Claude Code Rules/Skills/Hooks/Subagents와 자체 MCP 서버를 연동한 AI Agent 기반 백엔드 설계·검증 하네스를 구축했습니다.
-
 ## 오픈소스 기여
 
 OpenAI Codex CLI를 위한 워크플로우 레이어인 oh-my-codex에 기여하며, tmux 기반 멀티 에이전트 런타임에서 HUD pane이 중복 생성되던 문제를 재현하고 수정했습니다.

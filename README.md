@@ -4,8 +4,8 @@
 
 릴리즈 반영:
 
-- [oh-my-codex v0.18.10](https://github.com/Yeachan-Heo/oh-my-codex/releases/tag/v0.18.10) - HUD pane 중복 생성 방지 기여가 릴리즈에 반영되었고 릴리즈 노트에서 contributor로 확인할 수 있습니다.
-- [oh-my-codex v0.18.14](https://github.com/Yeachan-Heo/oh-my-codex/releases/tag/v0.18.14) - [#2828](https://github.com/Yeachan-Heo/oh-my-codex/pull/2828) 기여가 `Preserve HUD pane ownership on shutdown` 항목으로 반영되었고 릴리즈 노트에서 `@MasJeong` contributor로 확인할 수 있습니다.
+- [oh-my-codex v0.18.10](https://github.com/Yeachan-Heo/oh-my-codex/releases/tag/v0.18.10) - HUD pane 중복 생성 방지 개선 반영
+- [oh-my-codex v0.18.14](https://github.com/Yeachan-Heo/oh-my-codex/releases/tag/v0.18.14) - HUD pane ownership 보존 개선 반영
 
 주요 기여:
 

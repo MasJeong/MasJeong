@@ -9,13 +9,13 @@
 
 주요 기여:
 
-- [Yeachan-Heo/oh-my-codex #2738](https://github.com/Yeachan-Heo/oh-my-codex/pull/2738), [#2739](https://github.com/Yeachan-Heo/oh-my-codex/pull/2739) - team worker 실행 경로와 worker startup script 경로에서 HUD ownership context가 worker/prompt 실행 환경으로 누수되어 HUD pane이 중복 생성되던 문제를 함께 정리했습니다. HUD 소유권 환경변수를 명시적으로 제거하고, 중복 HUD pane 복구 로직·로컬 소스 기준 실행 경로·회귀 테스트를 보강했습니다.
-- [Yeachan-Heo/oh-my-codex #2828](https://github.com/Yeachan-Heo/oh-my-codex/pull/2828) - shared-session Team shutdown 중 사용자 소유 tmux pane이 실수로 종료되거나 HUD가 잘못된 생존 pane에 연결될 수 있던 문제를 수정했습니다. Team 소유 worker/HUD pane만 제거하도록 live tmux worker evidence 기반으로 shutdown 대상을 좁히고, leader pane·무관한 user pane·sidecar pane·별도 HUD pane·복구된 standalone HUD pane을 보존하도록 회귀 테스트를 추가했습니다.
+- [Yeachan-Heo/oh-my-codex #2738](https://github.com/Yeachan-Heo/oh-my-codex/pull/2738), [#2739](https://github.com/Yeachan-Heo/oh-my-codex/pull/2739) - team worker 실행 시 부모 pane의 HUD ownership context가 worker 실행 환경에 전달되어 HUD pane이 중복 생성되는 문제를 발견하였고 worker 실행 전 HUD 소유권 관련 환경변수를 제거하도록 개선했으며 worker 실행 경로별 재현 테스트를 통해 HUD pane이 중복 생성되지 않는 것을 검증했습니다.
 
+- [Yeachan-Heo/oh-my-codex #2828](https://github.com/Yeachan-Heo/oh-my-codex/pull/2828) - shared-session Team shutdown 시 종료 대상 Tmux pane 판별되지 않아 사용자 소유 tmux pane이 종료되고 HUD가 잘못된 pane에 연결될 수 있는 문제를 마주하였습니다. 실행 중인 tmux worker pane 정보를 기준으로 Team 소유 worker/HUD pane만 종료 대상으로 제한하도록 개선하고 리더 pane·개인 pane·standalone HUD pane 보존 여부를 테스트로 검증하였습니다.
 
 ## 관심 영역
 
-- 백엔드 아키텍처 설계
 - AI Agent Engineering
 - AI Agent 기반 개발 워크플로우
 - 개발 환경 개선과 반복 업무 자동화
+- 백엔드 아키텍처 설계
